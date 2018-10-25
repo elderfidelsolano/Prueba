@@ -35,7 +35,6 @@ RSpec.describe GroupAssignmentRepo, type: :model do
         context "success" do
           before(:each) do
             @group_assignment_repo = GroupAssignmentRepo.create(group_assignment: group_assignment, group: group)
-
           end
 
           describe "#create_github_repository" do
